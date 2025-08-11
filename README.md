@@ -1,0 +1,1 @@
+# smc_content_repository
