@@ -1,7 +1,7 @@
 # sample name -> widgets/accounts_compromised/script.py
 
 
-# this to return default widget config
+# this to return smc widget config
 def configure():
     return {
         "searchable": False,

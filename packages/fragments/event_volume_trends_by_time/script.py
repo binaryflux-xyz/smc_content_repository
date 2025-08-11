@@ -1,5 +1,5 @@
 from datetime import datetime
-from collections import defaultdict
+from collections import smcdict
 
 # Format: Specifies the format for the data.
 def format():
@@ -21,7 +21,7 @@ def render(results):
 
     
     # Step 2: Create buckets for timestampbyhour (total events)
-    event_buckets = defaultdict(int)
+    event_buckets = smcdict(int)
     
     for row in results:
         ts = row.get('timestampbyhour')

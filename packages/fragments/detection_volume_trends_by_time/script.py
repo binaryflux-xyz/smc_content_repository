@@ -1,5 +1,5 @@
 from datetime import datetime
-from collections import defaultdict
+from collections import smcdict
 
 # Format: Specifies the format for the data.
 def format():
@@ -21,7 +21,7 @@ def render(results):
         raise Exception("No time buckets found in query")
 
     # Step 1: Create buckets for detectiontime
-    detection_buckets = defaultdict(int)
+    detection_buckets = smcdict(int)
  
     for row in results:
         ts = row.get('detectiontime')

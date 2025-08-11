@@ -1,4 +1,4 @@
-# this to return default widget config
+# this to return smc widget config
 def configure():
     return {
         "searchable": False, #Boolean value depending whether the widget is searchable or not

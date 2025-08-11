@@ -344,4 +344,4 @@ def schedule():
 	return "@daily"
 
 def fragments():
-	return ["smc/default/fragments/detection_volume_trends_by_time/","smc/default/fragments/event_volume_trends_by_time/","smc/default/fragments/top_entities_involved_in_security_events/","smc/default/fragments/detection_severity_breakdown/","smc/default/fragments/coverage_by_threat_category/","smc/default/fragments/top_recurring_threat_detections/","smc/default/fragments/event_distribution_by_sources/","smc/default/fragments/devices_generating_the_most_security_events/"]
+	return ["smc/smc/fragments/detection_volume_trends_by_time/","smc/smc/fragments/event_volume_trends_by_time/","smc/smc/fragments/top_entities_involved_in_security_events/","smc/smc/fragments/detection_severity_breakdown/","smc/smc/fragments/coverage_by_threat_category/","smc/smc/fragments/top_recurring_threat_detections/","smc/smc/fragments/event_distribution_by_sources/","smc/smc/fragments/devices_generating_the_most_security_events/"]

@@ -3,7 +3,7 @@
 
 def configuration():
     return {
-    "dictionary": "smc/default/dictionaries/linux_dictionary/"
+    "dictionary": "smc/smc/dictionaries/linux_dictionary/"
 }
 
 def use():

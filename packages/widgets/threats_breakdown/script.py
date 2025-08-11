@@ -4,7 +4,7 @@ import time
 from datetime import datetime, timedelta
 
 
-# this to return default widget config
+# this to return smc widget config
 
 
 

@@ -3,9 +3,9 @@
 
 def configuration():
     return {
-    "dictionary": "smc/default/dictionaries/windows_logs_dictionary/",
+    "dictionary": "smc/smc/dictionaries/windows_logs_dictionary/",
     "aggregations": [
-        "smc/default/aggregations/tenant_health_monitor/"
+        "smc/smc/aggregations/tenant_health_monitor/"
     ]
 }
 

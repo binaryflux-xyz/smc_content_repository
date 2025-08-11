@@ -1,3 +1,3 @@
 
 def widgets():
-	return ["smc/default/widgets/threat_coverage/","smc/default/widgets/threats_breakdown/","smc/default/widgets/stats_published_card/","smc/default/widgets/stats_detections_card/","smc/default/widgets/top_detections/","smc/default/widgets/detections_by_categories/","smc/default/widgets/risk_metrics/","smc/default/widgets/stats_automations_card/","smc/default/widgets/stats_incidents_card/","smc/default/widgets/top_outliers/","smc/default/widgets/top_streams/","smc/default/widgets/my_queue/"]
+	return ["smc/smc/widgets/threat_coverage/","smc/smc/widgets/threats_breakdown/","smc/smc/widgets/stats_published_card/","smc/smc/widgets/stats_detections_card/","smc/smc/widgets/top_detections/","smc/smc/widgets/detections_by_categories/","smc/smc/widgets/risk_metrics/","smc/smc/widgets/stats_automations_card/","smc/smc/widgets/stats_incidents_card/","smc/smc/widgets/top_outliers/","smc/smc/widgets/top_streams/","smc/smc/widgets/my_queue/"]
